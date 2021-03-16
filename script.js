@@ -11,17 +11,18 @@ const wrong = document.querySelector(".wrongAnswer");
 correct.addEventListener('click', function() {
     answerText.classList.remove("hidden");
     correct.classList.add("correct");
-    //cheer.play();
+    cheer.play();
+      });
 
     //if answer is wrong play boo sound effect and change bg colour
 
-    wrong.addEventListener('click', function() {
-        wrong.classList.add("wrong");
-        console.log('test')
-            //boo.play();
-    });
+ wrong.addEventListener('click', function() {
+     wrong.classList.add("wrong");
+     console.log('test')
+     boo.play();
+  
 
-    //assign correct and wrong to answers
+   
 
 
 
