@@ -20,11 +20,5 @@ correct.addEventListener('click', function() {
      wrong.classList.add("wrong");
      console.log('test')
      boo.play();
-  
-
-   
-
-
-
 
 });
