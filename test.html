@@ -5,36 +5,263 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <script src="script.js"></script>
 </head>
 
 <body>
     <div class="header">
-        <div class="text_1">
-            <h1>Quiz title. Needs some more text</h1>
+        <div class="img_container">
+            <img src="img/treasure_map.jpg" alt="treasure map" class="img"/>
         </div>
-        <div class="container">
-            <img src="https://via.placeholder.com/300x100" />
+        <div class="text_1">
+            <h1>The Great Easter Quiz & Egg Hunt 2021!</h1>
+        </div>
+        <div class="img_container">
+            <img src="img/birds_1.jpeg" alt="birds" class="img"/>
         </div>
     </div>
+
+    <!--- Question 1-->
+
     <div class="qblock">
         <div class="qtextbox">
-            <div class="qtext">Some Question Text</div>
+            <div class="qtext">What Is The License Plate On Doc’s DeLorean?</div>
         </div>
-        <div class="answer_a correct">
-            <div class="qtext">Answer A</div>
-        </div>
-        <div class="answer_b wrong">
-            <div class="qtext">Answer B</div>
-        </div>
-        <div class="answer_c wrong">
-            <div class="qtext">Answer C</div>
-        </div>
-        <div class="answer_d wrong">
-            <div class="qtext">Answer D</div>
-        </div>
-        <div class="qtextbox hidden">
-            <div class="qtext">Some Answer Text</div>
+        <button class="answer_a correctAnswer">
+            <div class="qtext">OUTATIME</div>
+        </button>
+        <button class="answer_b wrongAnswerB">
+            <div class="qtext">OUTASPACE</div>
+        </button>
+        <button class="answer_c wrongAnswerC">
+            <div class="qtext">OUTASITE</div>
+        </button>
+        <button class="answer_d wrongAnswerD">
+            <div class="qtext">OUTAMIND</div>
+        </button>
+        <div class="qtextbox hidden answerText">
+            <div class="qtext">The first clue is clever you’ll think<br>
+                It’s in a machine that makes a hot drink</div>
         </div>
     </div>
+
+
+    <!--- Question 2-->
+    <div class="qblock">
+        <div class="qtextbox">
+            <div class="qtext">How did Buddy travel to New York from the North Pole?</div>
+        </div>
+        <button class="answer_a wrongAnswerA2">
+            <div class="qtext">He drove a golf cart</div>
+        </button>
+        <button class="answer_b wrongAnswerB2">
+            <div class="qtext">He hopped</div>
+        </button>
+        <button class="answer_c correctAnswerC2">
+            <div class="qtext">He walked through the six levels of the candy cane forest</div>
+        </button>
+        <button class="answer_d wrongAnswerD2">
+            <div class="qtext">He flew an aeroplane stolen from Dastardly & Mutley</div>
+        </button>
+        <div class="qtextbox hidden answerTextQ2">
+            <div class="qtext">This next clue is close to your feet<br>
+                Its under an object where a cat likes to eat</div>
+        </div>
+    </div>
+
+
+       <!--- Question 3-->
+       <div class="qblock">
+        <div class="qtextbox">
+            <div class="qtext">Apart from felix, Holly's favourite thing ever is...</div>
+        </div>
+        <button class="answer_a wrongAnswerA3">
+            <div class="qtext">Playing a kazoo</div>
+        </button>
+        <button class="answer_b correctAnswerB3">
+            <div class="qtext">Hanging out in the garden with us</div>
+        </button>
+        <button class="answer_c wrongAnswerC3">
+            <div class="qtext">Doing the Can Can</div>
+        </button>
+        <button class="answer_d wrongAnswerD3">
+            <div class="qtext">Off piste ski-jumping</div>
+        </button>
+        <div class="qtextbox hidden answerTextQ3">
+            <div class="qtext">The clues now are starting to ooze<br>
+                This next one is hidden behind a bottle of booze</div>
+        </div>
+    </div>
+
+
+    <!--- Question 4-->
+
+    <div class="qblock">
+        <div class="qtextbox">
+            <div class="qtext">What two things must you know about the wise woman?</div>
+        </div>
+        <button class="answer_a correctAnswerA4">
+            <div class="qtext">She is wise<br>She is a woman</div>
+        </button>
+        <button class="answer_b wrongAnswerB4">
+            <div class="qtext">Her name is Sarah<br>She has a nice bum</div>
+        </button>
+        <button class="answer_c wrongAnswerC4">
+            <div class="qtext">She is 9 foot 2<br>And eats nothing but carrots</div>
+        </button>
+        <button class="answer_d wrongAnswerD4">
+            <div class="qtext">Her name is Holly<br>She is a cat</div>
+        </button>
+        <div class="qtextbox hidden answerTextQ4">
+            <div class="qtext">This next clue, I’m sure you’re aware<br>
+                Is behind an image of a man on a chair</div>
+        </div>
+    </div>
+
+
+    <!--- Question 5-->
+
+    <div class="qblock">
+        <div class="qtextbox">
+            <div class="qtext">Who is the mayor of Schitts Creek?</div>
+        </div>
+        <button class="answer_a wrongAnswerA5">
+            <div class="qtext">Boris Johnson</div>
+        </button>
+        <button class="answer_b wrongAnswerB5">
+            <div class="qtext">Freddie Mercury</div>
+        </button>
+        <button class="answer_c wrongAnswerC5">
+            <div class="qtext">Holly</div>
+        </button>
+        <button class="answer_d correctAnswerD5">
+            <div class="qtext">Roland Schitt</div>
+        </button>
+        <div class="qtextbox hidden answerTextQ5">
+            <div class="qtext">This next clue if you see what I mean<br>
+                Is inside a cupboard in a room where we clean</div>
+        </div>
+    </div>
+
+    <!--- Question 6-->
+
+    <div class="qblock">
+        <div class="qtextbox">
+            <div class="qtext">What company project did Monty Brewster invest money in?</div>
+        </div>
+        <button class="answer_a wrongAnswerA6">
+            <div class="qtext">A passenger carrying flying teapot</div>
+        </button>
+        <button class="answer_b wrongAnswerB6">
+            <div class="qtext">A chorus line of singing and dancing canaries</div>
+        </button>
+        <button class="answer_c correctAnswerC6">
+            <div class="qtext">A motorised iceberg to bring water to the thirsty Arabs</div>
+        </button>
+        <button class="answer_d wrongAnswerD6">
+            <div class="qtext">Doc Brown's plutonium powered DeLorean</div>
+        </button>
+        <div class="qtextbox hidden answerTextQ6">
+            <div class="qtext">The next clue it must be said<br>
+                Is in a purple object you wear on your head</div>
+        </div>
+    </div>
+
+     <!--- Question 7-->
+
+     <div class="qblock">
+        <div class="qtextbox">
+            <div class="qtext">What is the title of the film about Elton John's life?</div>
+        </div>
+        <button class="answer_a wrongAnswerA7">
+            <div class="qtext">Sprocketman</div>
+        </button>
+        <button class="answer_b wrongAnswerB7">
+            <div class="qtext">Turtleman</div>
+        </button>
+        <button class="answer_c wrongAnswerC7">
+            <div class="qtext">Man in a chicken outfit</div>
+        </button>
+        <button class="answer_d correctAnswerD7">
+            <div class="qtext">Rocketman</div>
+        </button>
+        <div class="qtextbox hidden answerTextQ7">
+            <div class="qtext">This clue is a bit of a test<br>
+                Its behind an object where trousers are pressed</div>
+        </div>
+    </div>
+
+
+         <!--- Question 8-->
+         <div class="qblock">
+            <div class="qtextbox">
+                <div class="qtext">What is the name of the guitarist from Queen?</div>
+            </div>
+            <button class="answer_a wrongAnswerA8">
+                <div class="qtext">Johnny October</div>
+            </button>
+            <button class="answer_b correctAnswerB8">
+                <div class="qtext">Brian May</div>
+            </button>
+            <button class="answer_c wrongAnswerC8">
+                <div class="qtext">Gertrude January</div>
+            </button>
+            <button class="answer_d wrongAnswerD8">
+                <div class="qtext">Bob</div>
+            </button>
+            <div class="qtextbox hidden answerTextQ8">
+                <div class="qtext">This next clue is bound to enchant<br>
+                    It’s under the pot of a very large plant</div>
+            </div>
+        </div>
+
+         <!--- Question 9-->
+         <div class="qblock">
+            <div class="qtextbox">
+                <div class="qtext">What are the horde of bad guys in Yellow Submarine known as?</div>
+            </div>
+            <button class="answer_a wrongAnswerA9">
+                <div class="qtext">The Blue Cheesies</div>
+            </button>
+            <button class="answer_b correctAnswerB9">
+                <div class="qtext">The Blue Meanies</div>
+            </button>
+            <button class="answer_c wrongAnswerC9">
+                <div class="qtext">The Blue Teenies</div>
+            </button>
+            <button class="answer_d wrongAnswerD9">
+                <div class="qtext">The Yellow Pinkies</div>
+            </button>
+            <div class="qtextbox hidden answerTextQ9">
+                <div class="qtext">The next test you’ll need to pass<br>
+                    Is on a machine that cuts the grass</div>
+            </div>
+        </div>
+
+           <!--- Question 10-->
+
+    <div class="qblock">
+        <div class="qtextbox">
+            <div class="qtext">What is the name of the Good Witch of the North?</div>
+        </div>
+        <button class="answer_a correctAnswerA10">
+            <div class="qtext">Glinda</div>
+        </button>
+        <button class="answer_b wrongAnswerB10">
+            <div class="qtext">Belinda</div>
+        </button>
+        <button class="answer_c wrongAnswerC10">
+            <div class="qtext">Glenda</div>
+        </button>
+        <button class="answer_d wrongAnswerD10">
+            <div class="qtext">Bob</div>
+        </button>
+        <div class="qtextbox hidden answerTextQ10">
+            <div class="qtext">One last clue and then you’ll be free<br>
+                And you’ll find this sitting on a branch of a tree</div>
+        </div>
+    </div>
+    <footer class ="footer"></footer>
+
+
+    <script src="script.js "></script>
 </body>

@@ -8,7 +8,10 @@ h1 {
 
 body {
     height: 100vh;
-    background: #f7de6e;
+   /* background: #f7de6e;  */
+   background-image: linear-gradient(rgba(0, 0, 0, 0.103), rgba(0, 0, 0, 0.192)), url(img/egg_1.jpg);
+   background-size: cover;
+   background-attachment: fixed;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-size: 20px;
 }
@@ -18,9 +21,13 @@ body {
     font-size: 50px;
 }
 
-.container {
-    margin: 0px;
-    width: fit-content;
+.img{
+    width: 300px;
+    height: 130px;
+}
+
+.img_container {
+    width: 300px;
 }
 
 .header {
@@ -29,9 +36,23 @@ body {
     margin: 0px;
     background-color: #f8f7a1;
     border: 2px;
-    display: flex;
+    display: flex;  
     align-items: center;
     justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    opacity:0.95;
+}
+
+h1:after {
+    display: block;
+    height: 2px;
+    background-color: #ecca33;
+    content: " ";
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
 .qblock {
@@ -40,8 +61,13 @@ body {
     width: 700px;
     border: 10px;
     border-color: rgb(241, 170, 63);
+    border-radius: 10px;
     border: solid;
-    margin: 100px auto;
+    margin: 50px auto 140px auto;
+    z-index: 1;
+    position:relative;
+    top: 175px;
+    bottom: 150px;
 }
 
 .qtextbox {
@@ -53,6 +79,7 @@ body {
     background-color: #ecca33;
     position: relative;
     margin: 30px auto 15px auto;
+    text-align: center;
 }
 
 .qtextbox,
@@ -117,4 +144,6 @@ body {
     background-color: rgb(248, 71, 59);
 }
 
-#a_1 {}
+.footer{
+    height:100px;
+}
