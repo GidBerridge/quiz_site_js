@@ -142,8 +142,11 @@ h1:after {
 
 .wrong {
     background-color: rgb(248, 71, 59);
+<<<<<<< HEAD
 }
 
 .footer{
     height:100px;
+=======
+>>>>>>> 2e7cfd1a3bb1ed6998dfcde5c8c594dd04601080
 }

@@ -232,7 +232,7 @@ d8_wrong.addEventListener("click", function() {
     boo.play();
 });
 
-//---------------Q8---------------------------
+//---------------Q9---------------------------
 const a9_wrong = document.querySelector(".wrongAnswerA9");
 const q9_answerText = document.querySelector(".answerTextQ9");
 const b9_correct = document.querySelector(".correctAnswerB9");
@@ -261,7 +261,7 @@ d9_wrong.addEventListener("click", function() {
 });
 
 
-//---------------Q4---------------------------
+//---------------Q10---------------------------
 const a10_correct = document.querySelector(".correctAnswerA10");
 const q10_answerText = document.querySelector(".answerTextQ10");
 const b10_wrong = document.querySelector(".wrongAnswerB10");
